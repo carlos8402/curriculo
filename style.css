@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+                  /*---------Imagem de fundo-----------------*/
+.introduction {
+ background-image: url(./img/fundo4.svg);
+}
+.introducion-one {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding-top: 6rem;
+    padding-bottom: 6rem ;
+}
+
+.items {
+    list-style: none;
+    
+
+}
+.item {
+    font-size: 1.3rem;
+    color:rgb(57, 201, 96); 
+    
+    
+
+}
+.link-social {
+    text-decoration: none;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(63, 94, 28);
+
+    
+}
+.profile {
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 3px solid cadetblue;
+    background-image: url(./img/fundo4.svg);
+    border-radius: 15px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+.profile-img {
+    border-radius: 15px;
+}
+.profile-title {
+    color:rgb(24, 180, 102);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(57, 201, 96);
+}
+.profile-text {
+    width: 600px;
+    margin-left: 30px;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(63, 94, 28);
+}
+.data-name {
+    font-family: 'Indie Flower', cursive;
+    color:rgb(24, 180, 102);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(57, 201, 96);
+    font-size: 3rem;
+}
+.data-about-name {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(63, 94, 28);
+    font-size: 2rem;
+}
+.data-function {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(57, 201, 96);
+    font-size: 1.5rem;
+
+}
+
+
+
+.container {
+    background-image: url(./img/fundo4.svg);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding-top: 6rem;
+    padding-bottom: 6rem ;
+}
+.formation-title {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(57, 201, 96);
+    font-size: 1.5rem;
+
+}
+.formation-institution {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(57, 201, 96);
+    font-size: 1.5rem;
+}
+.table-items {
+    align-items: center;
+    
+}
+.table-title {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(57, 201, 96);
+    font-size: 1.5rem;
+    text-align:left;
+
+}
+.table-item {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(63, 94, 28);
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.certifications {
+    align-items: center;
+    justify-content: center;
+}
+.certifications-title {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(57, 201, 96);
+    font-size: 1.5rem;
+    text-align:left;
+
+}
+.certifications-items {
+    list-style: none;
+}
+.certifications-item {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(63, 94, 28);
+    font-size: 1.5rem;
+    text-align:left;
+}
+.container2 {
+    background-image: url(./img/fundo4.svg);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding-top: 6rem;
+    padding-bottom: 6rem ;
+}
+.skills-title {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(57, 201, 96);
+    font-size: 1.3rem;
+    text-align: center;
+
+}
+.skills-items {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    
+}
+.skills-item {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(63, 94, 28);
+    font-size: 1.5rem;
+    text-align:left;
+}
+.references-title {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(57, 201, 96);
+    font-size: 1.3rem;
+    align-items: center;
+  
+
+}
+.references-name {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(57, 201, 96);
+    font-size: 2rem;
+}
+.references-contato {
+    font-family: 'Indie Flower', cursive;
+    color:gray;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:rgb(63, 94, 28);
+    font-size: 1.5rem;
+    text-align:left;
+
+}
+.references-link {
+    text-decoration: none;
+}

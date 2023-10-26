@@ -1,79 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Currículo Carlos Freitas</title>
 </head>
-<body>
-    <header>
-        <img src="./img/foto_perfil.jpg"  width="100x" height="100px"  alt="">
-        <h1>Carlos Eduardo Rodrigues de Freitas</h1>
-        <p>Dessenvolvedor web</p>
+<body >
+    <header class="introduction">
+
+        <div class="introducion-one">
+
+                <div class="data">
+                    <h1 class="data-name">C a r l o s </h1>
+                    <p class="data-about-name">Eduardo Rodrigues de Freitas</p><br>
+                    <p class="data-function">Dessenvolvedor web</p>
+                </div>
+
+                <div class="menu-social-networks">
+
+                    <ul class="items">
+                    
+                        <li class="item"><i class="bi bi-linkedin"></i>
+                            <a class="link-social" href="https://www.linkedin.com/in/carlos-eduardo-r-freitas/">  Perfil linkedin</a></li><br>
+                        <li class="item"><i class="bi bi-github"></i> 
+                            <a class="link-social" href="https://github.com/carlos8402">  Perfil github</a></li><br>
+                        <li class="item"><i class="bi bi-envelope"></i>
+                            <a class="link-social" href="mailto:carlos_eduardo8468@hotmail.com">  enviar email</a></li><br>
+                        <li class="item"><i class="bi bi-phone"></i> 
+                            <a class="link-social" href="tel:+5581984027695">  ligar: (81) 98402-7695</a></li><br>
+                        <li class="item"><i class="bi bi-whatsapp"></i> 
+                            <a class="link-social" href="https://wa.me/5581984027695?text=">  iniciar uma conversa no whatsapp</a>
+                        </li>
+                    </ul> 
+                </div> 
+             
+           
+        </div>
+        
+        <div class="profile">
+            
+                <img class="profile-img" src="./img/foto_perfil.jpg"  width="150px" height="150px"  alt="">
+
+                <div class="profile-text">
+                    <h2 class="profile-title">Perfil Pessoal</h2>
+                    <p class="profile-about">Sou um estudante de Ciências da Computação e cada dia mais apaixonado por tecnologia,
+                    estudando e praticando HTML, CSS , Java Script, GIT. Além da faculdade estou sempre fazendo
+                    cursos livres e bootcamps para aprender novas habilidades no campo de desenvolvimento.</p>
+                </div>
+          
+        </div>
+
     </header>
     
     <main>
-        <section>
-            <h2>Perfil Pessoal</h2>
-            <p>Sou um estudante de Ciências da Computação e cada dia mais apaixonado por tecnologia,
-              estudando e praticando HTML, CSS , Java Script, GIT. Além da faculdade estou sempre fazendo
-               cursos livres e bootcamps para aprender novas habilidades no campo de desenvolvimento.</p>
-        </section>
 
-        <section>
-            <h2>Formação Academica</h2>
-            <p>Faculdade Cruzeiro do Sul</p>
-            <table border="1">
-                <tbody>
-                    <tr>
-                        <th scope="row">Curso:</th>
-                        <td>Ciência da Computação</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Período:</th>
-                        <td>6°</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Formação:</th>
-                        <td>dezembro, 2024</td>
-                    </tr>
-                </tbody>
+        <div class="container">
 
-            </table>
-        </section>
+                <section id="formation">
+                    <h2 class="formation-title">Formação Academica:</h2>
+                    <p class="formation-institution">Faculdade Cruzeiro do Sul</p>
 
-        <section>
-            <h2>Certificações</h2>
-            <ul>
-                <li>Curso básico HTML / Fundação Bradesco</li>
-                <li>Curso avançado HTML / Fundação Bradesco</li>
-                <li>Curso de CSS / Curso em video</li>
-                <li>Curso Java script / Curso em video</li>
-                <li>Curso de GIT / Curso em video</li>
-                <li>Curso de programação em java(240h) adm e tec</li>
-                <li>Orange Tech + BackEnd /inter (bootcamp da DIO) Java / Spring Boot / maven</li>
-            </ul>
-        </section>
-    
+                        <table class="formation-table">
+                            <tbody class="table-items">
+                                <tr>
+                                    <th class="table-title" scope="row">Curso:</th>
+                                    <td class="table-item">Ciência da Computação</td>
+                                </tr>
+                                <tr>
+                                    <th class="table-title"scope="row">Período:</th>
+                                    <td class="table-item">6° Período</td><br>
+                                </tr>
+                                <tr>
+                                    <th class="table-title" scope="row">Formação:</th>
+                                    <td class="table-item">dezembro, 2024</td>
+                                </tr>
+                            </tbody>
 
-        <section>
-                <h2>Meios de contatos e rede socias</h2>
-                <ul>
-                    <li>linkedin:
-                        <a href="https://www.linkedin.com/in/carlos-eduardo-r-freitas/">Perfil linkedin</a></li> 
-                    <li>github:
-                         <a href="https://github.com/carlos8402">Perfil github</a></li>
-                    <li>email: 
-                        <a href="mailto:carlos_eduardo8468@hotmail.com">enviar email</a></li>
-                    <li>telefone:
-                        <a href="tel:+5581984027695">ligar-> (81) 98402-7695</a></li>
-                    <li>whatsapp:
-                        <a href="https://wa.me/5581984027695?text=">iniciar uma conversa no whatsapp</a>
+                        </table>
+                </section>
+
+                <section id="certifications">
+                    <h2 class="certifications-title">Certificações</h2>
+                    <ul class="certifications-items">
+                        <li class="certifications-item">Curso básico HTML / Fundação Bradesco</li>
+                        <li class="certifications-item">Curso avançado HTML / Fundação Bradesco</li>
+                        <li class="certifications-item">Curso de CSS / Curso em video</li>
+                        <li class="certifications-item">Curso Java script / Curso em video</li>
+                        <li class="certifications-item">Curso de GIT / Curso em video</li>
+                        <li class="certifications-item">Curso de programação em java(240h) adm e tec</li>
+                        <li class="certifications-item">OrangeTech (bootcamp DIO) Java / Spring Boot / maven</li>
+                    </ul>
+                </section>
+        </div>
+        <div class="container2">
+
+                <section id="skills">
+
+                    <h2 class="skills-title">Habilidades:</h2><br>
+                    <ul class="skills-items">
+                        <li class="skills-item"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></li>
+                        <li class="skills-item"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"></li>
+                        <li class="skills-item"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"></li>
+                        <li class="skills-item"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"></li>
+                        <li class="skills-item"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></li>
+                        <li class="skills-item"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></li>
+                    </ul>
+
+                </section>
+
+                <section id="references">
+                    <h2 class="references-title">Referências:</h2>
+                    <h3 class="references-name">Gilson Nunes Filho</h3>
+                    <p class="references-contato"><i class="bi bi-github"></i>  github:
+                        <a class="references-link" href="https://github.com/gilsonnunesfilho">  Perfil github</a></p>
                     
-                    </li>
-                
-
-        </section>
-    
+                </section>
+            
+        </div>
+    </main>
 </body>
 </html>
