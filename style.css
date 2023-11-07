@@ -5,66 +5,102 @@
     padding: 0;
     margin: 0;
 }
-                  /*---------Imagem de fundo-----------------*/
+                              /*---------IMAGEM DE FUNDO-----------------*/
 .introduction {
  background-image: url(./img/fundo4.svg);
+ display: flex;
+ flex-direction: column;
 }
+                    /*---------CLASS DATA  + CLASS MENU-SOCIAL-NETWORKS -----------------*/
+
 .introducion-one {
     display: flex;
-    align-items: center;
-    justify-content:space-around;
     flex-wrap: wrap;
-    padding-top: 6rem;
-    padding-bottom: 6rem ;
-}
+    justify-content: center;
+    gap: 6rem;
+    padding-block: 5rem;
+  
 
+}  
+               
+                                   /*---------CLASS DATA 1-----------------*/
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+.data-name {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+            
+                               /*---------CLASS MENU-SOCIAL NETWORKS-----------------*/
 .items {
     list-style: none;
-    
-
+   
 }
 .item {
     font-size: 1.3rem;
     color:rgb(57, 201, 96); 
-    
-    
 
 }
 .link-social {
     text-decoration: none;
     color:gray;
     -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color:rgb(63, 94, 28);
-
-    
-}
-.profile {
-    border-radius: 15px;
-    display: flex;
+    -webkit-text-stroke-color:rgb(63, 94, 28);  
     align-items: center;
     justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    border: 3px solid cadetblue;
-    background-image: url(./img/fundo4.svg);
-    border-radius: 15px;
-    margin-left: 6rem;
-    margin-right: 6rem;
+}
+                                 /*---------CLASS PROFILE-----------------*/
+
+.profile {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+border-radius: 15px;
+border: 1px solid aquamarine;
+padding-block: 2rem;
+padding-inline: 2rem;
+margin-inline: 6rem;
+
+    
+ 
 }
 .profile-img {
     border-radius: 15px;
+    width: 140px;
+    height: 140px;
+    
 }
 .profile-title {
     color:rgb(24, 180, 102);
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(57, 201, 96);
+    padding-bottom: 1rem;
+
 }
 .profile-text {
     width: 600px;
-    margin-left: 30px;
     color:gray;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(63, 94, 28);
+}
+                                    /*---------CLASS DATA 2-----------------*/
+
+.first-name {
+    display: block;
+    
 }
 .data-name {
     font-family: 'Indie Flower', cursive;
@@ -86,26 +122,28 @@
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(57, 201, 96);
     font-size: 1.5rem;
-
 }
 
-
+                                        /*---------CLASS CONTAINER 1-----------------*/
 
 .container {
     background-image: url(./img/fundo4.svg);
     display: flex;
-    align-items: center;
-    justify-content:space-around;
     flex-wrap: wrap;
-    padding-top: 6rem;
-    padding-bottom: 6rem ;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    padding-block: 5rem;
 }
+                                      /*---------CLASS FORMATION-----------------*/
+
 .formation-title {
     font-family: 'Indie Flower', cursive;
     color:gray;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(57, 201, 96);
     font-size: 1.5rem;
+    text-align: center;
 
 }
 .formation-institution {
@@ -114,10 +152,7 @@
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(57, 201, 96);
     font-size: 1.5rem;
-}
-.table-items {
-    align-items: center;
-    
+    text-align: center;
 }
 .table-title {
     font-family: 'Indie Flower', cursive;
@@ -125,8 +160,7 @@
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(57, 201, 96);
     font-size: 1.5rem;
-    text-align:left;
-
+    
 }
 .table-item {
     font-family: 'Indie Flower', cursive;
@@ -135,11 +169,12 @@
     -webkit-text-stroke-color:rgb(63, 94, 28);
     font-size: 1.5rem;
     text-align: center;
-
 }
+                                 /*---------CLASS CERTIFICATIONS -----------------*/
+
 .certifications {
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 .certifications-title {
     font-family: 'Indie Flower', cursive;
@@ -147,29 +182,34 @@
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(57, 201, 96);
     font-size: 1.5rem;
-    text-align:left;
-
-}
-.certifications-items {
-    list-style: none;
+    text-align: center;
+    padding-bottom: 1rem;
 }
 .certifications-item {
+    list-style: none;
     font-family: 'Indie Flower', cursive;
     color:gray;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(63, 94, 28);
     font-size: 1.5rem;
-    text-align:left;
+    text-align: center;
+
 }
+                              /*---------CLASS CONTAINER 2 -----------------*/
+
 .container2 {
     background-image: url(./img/fundo4.svg);
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content:space-around;
     flex-wrap: wrap;
-    padding-top: 6rem;
-    padding-bottom: 6rem ;
+    gap: 8rem;
+    padding: 4rem 4rem;
+ 
+   
 }
+                             /*---------CLASS SKILLS-----------------*/
+
 .skills-title {
     font-family: 'Indie Flower', cursive;
     color:gray;
@@ -177,12 +217,15 @@
     -webkit-text-stroke-color:rgb(57, 201, 96);
     font-size: 1.3rem;
     text-align: center;
+   
 
 }
 .skills-items {
-    list-style: none;
     display: flex;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    list-style: none;
+
     
 }
 .skills-item {
@@ -191,15 +234,18 @@
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(63, 94, 28);
     font-size: 1.5rem;
-    text-align:left;
+
 }
+                                /*---------CLASS REFERENCES -----------------*/
+                                
 .references-title {
     font-family: 'Indie Flower', cursive;
     color:gray;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(57, 201, 96);
     font-size: 1.3rem;
-    align-items: center;
+    text-align: center;
+
   
 
 }
@@ -216,7 +262,7 @@
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(63, 94, 28);
     font-size: 1.5rem;
-    text-align:left;
+    
 
 }
 .references-link {
