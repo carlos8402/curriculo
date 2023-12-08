@@ -10,6 +10,9 @@
  background-image: url(./img/fundo4.svg);
  display: flex;
  flex-direction: column;
+ gap: 2rem;
+
+ 
 }
                     /*---------CLASS DATA  + CLASS MENU-SOCIAL-NETWORKS -----------------*/
 
@@ -17,12 +20,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 6rem;
-    padding-block: 5rem;
-  
-
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-inline: 2rem;
 }  
-               
+      
+
                                    /*---------CLASS DATA 1-----------------*/
 .data {
     display: flex;
@@ -30,7 +33,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  
+    border: 1px solid aqua;
+    border-radius: 15px;
+    padding-block: 2rem;
+    padding-inline: 2rem;
+    
 }
 .data-name {
     display: flex;
@@ -41,8 +48,20 @@
     justify-content: center;
     text-align: center;
 }
+.data-function {
+    text-align: center;
+}
             
                                /*---------CLASS MENU-SOCIAL NETWORKS-----------------*/
+.social-list {
+    border-radius: 15px;
+    border: 1px solid aqua;
+    padding-block: 2rem;
+    padding-inline: 2rem;   
+    
+
+}
+
 .items {
     list-style: none;
    
@@ -59,6 +78,10 @@
     -webkit-text-stroke-color:rgb(63, 94, 28);  
     align-items: center;
     justify-content: center;
+    margin-left: 1rem;
+}
+.link-social:hover {
+    color: rgb(243, 224, 224);
 }
                                  /*---------CLASS PROFILE-----------------*/
 
@@ -67,34 +90,38 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
-gap: 2rem;
 border-radius: 15px;
-border: 1px solid aquamarine;
+border: 1px solid aqua;
+margin-inline: 2rem;
 padding-block: 2rem;
-padding-inline: 2rem;
-margin-inline: 6rem;
 
-    
- 
 }
 .profile-img {
     border-radius: 15px;
-    width: 140px;
-    height: 140px;
+    width: 180px;
+    height: 180px;
     
 }
 .profile-title {
     color:rgb(24, 180, 102);
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(57, 201, 96);
-    padding-bottom: 1rem;
+    padding-block: 1rem;
+    text-align: center;
 
 }
 .profile-text {
     width: 600px;
     color:gray;
+    text-align: center;
+    padding-inline: 1rem;
+    font-size: 20px;
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color:rgb(63, 94, 28);
+}
+.profile-text:hover {
+    color: rgb(243, 224, 224);
+    
 }
                                     /*---------CLASS DATA 2-----------------*/
 
@@ -132,10 +159,17 @@ margin-inline: 6rem;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 10rem;
-    padding-block: 5rem;
+    gap: 2rem;
+    padding-block: 2rem;
 }
                                       /*---------CLASS FORMATION-----------------*/
+#formation {
+    border: 1px solid aqua;
+    border-radius: 15px;
+    padding-block: 2rem;
+    padding-inline: 2rem;
+    margin-inline: 2rem;
+}
 
 .formation-title {
     font-family: 'Indie Flower', cursive;
@@ -146,6 +180,7 @@ margin-inline: 6rem;
     text-align: center;
 
 }
+
 .formation-institution {
     font-family: 'Indie Flower', cursive;
     color:gray;
@@ -172,9 +207,14 @@ margin-inline: 6rem;
 }
                                  /*---------CLASS CERTIFICATIONS -----------------*/
 
-.certifications {
+#certifications {
     justify-content: center;
     align-items: center;
+    border: 1px solid aqua;
+    border-radius: 15px;
+    padding-block: 2rem;
+    padding-inline: 2rem;
+    margin-inline: 2rem;
 }
 .certifications-title {
     font-family: 'Indie Flower', cursive;
@@ -202,14 +242,22 @@ margin-inline: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
     flex-wrap: wrap;
-    gap: 8rem;
-    padding: 4rem 4rem;
- 
-   
+    padding-block: 2rem;
 }
                              /*---------CLASS SKILLS-----------------*/
 
+#skills {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid aqua;
+    border-radius: 15px;
+    padding-block: 2rem;
+    padding-inline: 5rem;
+    margin-inline: 2rem;
+   
+}
 .skills-title {
     font-family: 'Indie Flower', cursive;
     color:gray;
@@ -217,11 +265,11 @@ margin-inline: 6rem;
     -webkit-text-stroke-color:rgb(57, 201, 96);
     font-size: 1.3rem;
     text-align: center;
-   
-
 }
 .skills-items {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
     gap: 0.7rem;
     list-style: none;
@@ -237,7 +285,13 @@ margin-inline: 6rem;
 
 }
                                 /*---------CLASS REFERENCES -----------------*/
-                                
+#references {
+    border: 1px solid aqua;
+    border-radius: 15px;
+    padding-block: 1rem;
+    padding-inline: 1rem;
+   
+}                          
 .references-title {
     font-family: 'Indie Flower', cursive;
     color:gray;
@@ -253,18 +307,65 @@ margin-inline: 6rem;
     font-family: 'Indie Flower', cursive;
     color:gray;
     -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color:rgb(57, 201, 96);
-    font-size: 2rem;
+    -webkit-text-stroke-color:rgb(141, 187, 89);
+    font-size: 22px;
+    text-align: center;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+  
 }
 .references-contato {
     font-family: 'Indie Flower', cursive;
     color:gray;
     -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color:rgb(63, 94, 28);
-    font-size: 1.5rem;
+    -webkit-text-stroke-color:rgb(117, 177, 48);
+    font-size: 18px;
+  
     
 
 }
 .references-link {
     text-decoration: none;
+}
+.references-link:hover {
+    color: rgb(243, 224, 224);
+}
+
+@media (min-width:800px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .introducion-one {
+      flex-wrap: nowrap;
+      
+    }
+    .profile {
+        flex-wrap: nowrap;
+        margin-inline: 8rem;
+        margin-bottom: 1rem;
+        padding-inline: 2rem;
+        
+    }
+    .container {
+        flex-wrap: nowrap;
+        padding-block: 4rem;
+    }
+    .container2 {
+     flex-direction: column;
+     padding-block: 3rem;
+    
+
+    }
+    .skills-items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .skills {
+        padding-block: 2rem;
+    }
+
 }
