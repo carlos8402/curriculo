@@ -344,7 +344,7 @@ padding-block: 2rem;
     }
     .profile {
         flex-wrap: nowrap;
-        margin-inline: 8rem;
+        margin-inline: 14rem;
         margin-bottom: 1rem;
         padding-inline: 2rem;
         
@@ -354,18 +354,21 @@ padding-block: 2rem;
         padding-block: 4rem;
     }
     .container2 {
-     flex-direction: column;
-     padding-block: 3rem;
+     padding-top: 3rem;
+     padding-bottom: 6rem;
+     flex-wrap: nowrap  ;
+     
     
 
     }
     .skills-items {
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
+        
     }
     .skills {
-        padding-block: 2rem;
+        padding-block: 1rem;
     }
+   
 
 }
